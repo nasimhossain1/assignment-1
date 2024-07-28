@@ -1,0 +1,45 @@
+/* first part styles */
+
+.first-parts{
+    background-image: url('../assets/Hero-bg.png');
+    
+}
+.part-1{
+    
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+padding: 0px;
+}
+.part-2{
+    
+
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+padding: 0px;
+}
+.button{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(13, 19, 33);
+padding: 21px 24px 21px 24px;
+margin: 32px 0px;
+}
