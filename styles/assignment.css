@@ -1,6 +1,6 @@
 /* first part styles */
 
-.first-parts{
+.first-part{
     background-image: url('../assets/Hero-bg.png');
     
 }
@@ -15,6 +15,7 @@ letter-spacing: 0%;
 text-align: center;
 margin: 24px 0px;
 padding: 0px;
+max-width: 0 none;
 }
 .part-2{
     
@@ -42,4 +43,96 @@ border-radius: 8px;
 background: rgb(13, 19, 33);
 padding: 21px 24px 21px 24px;
 margin: 32px 0px;
+}
+/* second part styles */
+.second-part{
+    max-width: 0 none;
+    text-align: center;
+    border-radius: 16px;
+    align-items: center;
+    padding: 80px 97px 80px 430px;
+}
+.second-part-1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+flex-direction: column;
+justify-content: flex-start;
+width: 800px;
+height: 52px;
+position: static;
+align-items: center;
+}
+.second-part-2{
+    display: flex;
+    gap: 98px;
+    padding: 48px 48px;
+    width: 946px;
+    height: 336px;
+}
+.left-side{
+    /* Frame 6 */
+position: static;
+width: 477px;
+height: 220px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+text-align: left;
+}
+.button-2{
+    padding: 12px 20px 12px 20px;
+   background-color:  rgb(255, 255, 255);
+   font-size: 20px;
+   box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.second-part-3{
+    display: flex;
+}
+.right-side{
+    /* Frame 9 */
+position: static;
+width: 477px;
+height: 219px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 32px;
+}
+.second-part-4{
+    display: flex;
+}
+.right-image{
+    width: 240px;
+    height: 240px;
+    text-align: right;
+    padding: 16px 26px;
 }
